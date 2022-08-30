@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--扫描注解-->
+    <context:component-scan base-package="com.atguigu"></context:component-scan>
+
+    <bean id="Enhancer" class="org.springframework.cglib.proxy.Enhancer"></bean>
+    
+    <!--把MyBean放入spring容器-->
+    <bean id="mybean" class="com.atguigu.pojo.MyBean">
+        <!--依赖注入-->
+        <property name="myStrs">
+            <array>
+                <value>卧看牵牛织女星</value>
+                <value>千万和春住</value>
+            </array>
+        </property>
+        <property name="myList">
+            <list>
+                <bean id="user" class="com.atguigu.pojo.User">
+                    <constructor-arg name="id" value="1"></constructor-arg>
+                    <constructor-arg name="name" value="唐玄宗"></constructor-arg>
+                    <constructor-arg name="age" value="56"></constructor-arg>
+                </bean>
+            </list>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="李白" value="将进酒">
+                </entry>
+                <entry key="白居易">
+                    <value>长恨歌</value>
+                </entry>
+            </map>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>不及卢家有莫愁</value>
+            </set>
+        </property>
+        <property name="myProps">
+            <props><prop key="唐朝">杜甫</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

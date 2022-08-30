@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06df476b-9272-4998-ad0b-7f08c36283ee" name="Default Changelist" comment="zxday26-aop第一次提交">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/pojo/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/CustomerCGLIBProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/proxy/UserServiceJDKProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/sevice/CustomerServiceIml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/sevice/Userservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/sevice/impl/UserSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/pojo/MyBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/proxy/CustomerCGLIBProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/sevice/impl/UserSeviceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/pojo/MyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/proxy/CustomerCGLIBProxy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/proxy/CustomerCGLIBProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/proxy/UserServiceJDKProxy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/proxy/UserServiceJDKProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/sevice/CustomerServiceIml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/sevice/Userservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/sevice/impl/UserSeviceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/pojo/MyBeanTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/proxy/CustomerCGLIBProxyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/sevice/impl/UserSeviceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zxday26-aop.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="zxday26-aop" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/Develop/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Develop\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CqSJqWEoEUGYnCjHXMN6QxSAZ2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.pojo" />
+      <recent name="com.atguigu.proxy" />
+      <recent name="com.atguigu.sevice.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBeanTest.getMyStrs">
+    <configuration name="CustomerCGLIBProxyTest.creCglibProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zxday26-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.proxy.CustomerCGLIBProxyTest" />
+      <option name="METHOD_NAME" value="creCglibProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBeanTest.getMyStrs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zxday26-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.pojo" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.pojo.MyBeanTest" />
+      <option name="METHOD_NAME" value="getMyStrs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSeviceImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zxday26-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.sevice.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.sevice.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.sevice.impl.UserSeviceImplTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBeanTest.getMyStrs" />
+        <item itemvalue="JUnit.CustomerCGLIBProxyTest.creCglibProxy" />
+        <item itemvalue="JUnit.UserSeviceImplTest.add" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06df476b-9272-4998-ad0b-7f08c36283ee" name="Default Changelist" comment="" />
+      <created>1659528552353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659528552353</updated>
+      <workItem from="1659528556427" duration="4477000" />
+      <workItem from="1659575886325" duration="2078000" />
+      <workItem from="1659578149021" duration="138000" />
+      <workItem from="1659578391046" duration="138000" />
+      <workItem from="1659585209371" duration="4112000" />
+      <workItem from="1659595897365" duration="3312000" />
+      <workItem from="1659660968510" duration="2381000" />
+      <workItem from="1661857071796" duration="243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="79" key="#Inspections" timestamp="1659531512676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="79" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1659531512676" />
+    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1659597514419">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1659597514419" />
+    <state x="368" y="15" key="CommitChangelistDialog2" timestamp="1661857196353">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="368" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1661857196353" />
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1659593127194">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1659593127194" />
+    <state x="599" y="310" width="481" height="208" key="Github.ShareDialog" timestamp="1661857147641">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="599" y="310" width="481" height="208" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1661857147641" />
+    <state x="537" y="124" key="Github.UntrackedFilesDialog" timestamp="1661857159225">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="537" y="124" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1661857159225" />
+    <state width="1493" height="125" key="GridCell.Tab.0.bottom" timestamp="1659601248129">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1659601248129" />
+    <state width="1493" height="125" key="GridCell.Tab.0.center" timestamp="1659601248129">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1659601248129" />
+    <state width="1493" height="125" key="GridCell.Tab.0.left" timestamp="1659601248129">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1659601248129" />
+    <state width="1493" height="125" key="GridCell.Tab.0.right" timestamp="1659601248129">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1659601248129" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1659595885160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1659595885160" />
+    <state x="485" y="318" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1659577647635">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="485" y="318" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.834@0.0.1536.834" timestamp="1659577647635" />
+    <state x="485" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH" timestamp="1659577634101">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="485" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH/0.0.1536.834@0.0.1536.834" timestamp="1659577634101" />
+    <state x="540" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1659596813906">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="540" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1659596813906" />
+    <state x="178" y="121" key="new project wizard" timestamp="1659694656752">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="121" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1659694656752" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1661857216535">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1661857216535" />
+  </component>
+</project>
